@@ -1,0 +1,1 @@
+call APP6_fnc_mainPostBriefing;

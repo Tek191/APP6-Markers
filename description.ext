@@ -1,0 +1,20 @@
+class CfgFunctions {
+	class APP6 {
+		class functions {
+			file = "APP6";
+			class main {postInit = 1;};
+			class mainPostBriefing {};
+			class drawImagesAsIconsInBriefing {};
+			class drawImagesAsIconsIngame {};
+			class drawImagesAsIconsInGPS {};
+			class drawImagesAsIconsInSpectator {};
+			class drawImagesAsIconsInZeus {};
+			class drawImagesAsIconsInTeamSwitch {};
+			class drawImagesAsIconsInCamera {};
+			class getSideColour {};
+			class updateSideNameToRGBA {};
+			class validateMarkerParametersTypes {};
+			class validateMarkerParametersValues {};
+		}
+	}
+}
