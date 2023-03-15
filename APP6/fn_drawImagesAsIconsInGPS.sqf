@@ -12,7 +12,7 @@ RETURNS:
 
 #include <DEFINE_MARKER_PARAMETERS.sqf>
 #define DISPLAY_EXISTS !isNull (uiNamespace getVariable ["RscCustomInfoMiniMap", displayNull])
-#define GPS (((uiNamespace getVariable ["RscCustomInfoMiniMap", displayNull]) displayCtrl 13301) controlsGroupCtrl 101)
+#define GPS ((uiNamespace getVariable ["RscCustomInfoMiniMap", displayNull]) displayCtrl 13301 controlsGroupCtrl 101)
 
 waitUntil {DISPLAY_EXISTS;};
 

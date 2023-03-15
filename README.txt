@@ -1,8 +1,8 @@
 Written by Tek
 Many thanks to IndigoFox and MattySmith22 for holding my hand through writing this
 
-Version 1.0.0
-06/03/2023
+Version 1.0.1
+15/03/2023
 ------------------------------------------------------------------------------------
 
 Ensure you have the following files and folders in your mission directory:
@@ -20,9 +20,9 @@ It is in the format of a two dimensional array with each subarray being:
 For example to define three separate markers:
 
 APP6_markerArray = [
-					["242_ABCT_1_A_1_b_mech_inf_cannon_wheeled_platoon.paa", "marker_1", "BLUFOR", 50, 50, 0, "", 0, 0.03, "PuristaBold", "right"],
-					["242_ABCT_1_A_2_b_mech_inf_cannon_wheeled_platoon.paa", "marker_2", "BLUFOR", 100, 100, 0, "", 0, 0.03, "PuristaBold", "right"],
-					["242_ABCT_1_A_3_b_mech_inf_cannon_wheeled_platoon.paa", "marker_3", "BLUFOR", 200, 200, 0, "", 0, 0.03, "PuristaBold", "right"]
+					["infantryPlatoon.paa", "marker_0", "BLUFOR", 50, 50, 0, "", 0, 0.03, "PuristaBold", "right"],
+					["helicopter.paa", "marker_1", "BLUFOR", 100, 100, 0, "", 0, 0.03, "PuristaBold", "right"],
+					["enemyBase.paa", "marker_2", "OPFOR", 200, 200, 0, "", 0, 0.03, "PuristaBold", "right"]
 				];
 
 Ensure that the last (or only) element does not have a ',' at the end.
