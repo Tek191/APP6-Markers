@@ -6,7 +6,7 @@ PARAMETERS:
 
 RETURNS:
 	ARRAY<NUMBER> - [RGBA] if successful
-	NUMBER -1 - if unsuccessful, writes message in SystemChat
+	NUMBER -1 - if unsuccessful
 */
 
 params ["_sideName"];

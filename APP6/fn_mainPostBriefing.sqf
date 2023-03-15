@@ -1,5 +1,5 @@
 /*
-Adds the remaining Event Handlers that 'fn_main' did not.
+Adds the remaining Event Handlers that 'fn_main' did not, due to them not existing until the briefing ends.
 If APP6_fnc_main terminates with errors then drawing is not executed.
 Executed (by default in 'initPlayerLocal.sqf') after the briefing is completed in order to prevent an infinite waitUntil condition on multiple displays.
 
@@ -10,6 +10,7 @@ RETURNS:
 	None
 */
 
+waitUntil {!isNil "APP6_main_return";};
 if (APP6_main_return isEqualTo -1) exitWith {};
 
 call APP6_fnc_drawImagesAsIconsIngame;

@@ -38,9 +38,7 @@ APP6_markerArray
 10 ICON TEXT POSITION  - Position of text with reference to icon -> ("left", "center", "right")
 */
 APP6_markerArray = [
-					["242_ABCT_1_A_1_b_mech_inf_cannon_wheeled_platoon.paa", "marker_1", "BLUFOR", 50, 50, 0, "", 1, 0.03, "PuristaBold", "right"],
-					["242_ABCT_1_A_1_b_mech_inf_cannon_wheeled_platoon.paa", "marker_2", "BLUFOR", 50, 100, 0, "", 1, 0.03, "PuristaBold", "right"],
-					["242_ABCT_1_A_1_b_mech_inf_cannon_wheeled_platoon.paa", "marker_3", "BLUFOR", 100, 100, 0, "", 1, 0.03, "PuristaBold", "right"]				
+					[".paa", "marker_0", "BLUFOR", 100, 100, 0, "", 1, 0.03, "PuristaBold", "right"]
 					];
 
 if (NO_DEFINED_MARKERS) exitWith {systemChat "No markers defined, APP6 stopped";};
