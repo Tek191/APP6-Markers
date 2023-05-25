@@ -53,4 +53,4 @@ call APP6_fnc_updateSideNameToRGBA;
 
 APP6_main_return = 0; /*Defined before {call APP6_fnc_drawImagesAsIconsInBriefing;} to ensure 'initPlayerLocal.sqf' recieves updated value of '0' and not previous value '-1'*/
 
-call APP6_fnc_drawImagesAsIconsInBriefing;
+if (!didJIP) then {call APP6_fnc_drawImagesAsIconsInBriefing;}; /*Prevent JIPs from being stuck in waitUntil on briefing*/
